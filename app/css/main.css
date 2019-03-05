@@ -32,10 +32,12 @@
 	position: fixed;
 }
 .site-nav--deployed{
-
 	position: static;
+}
+.page-header__site-nav{
 	margin-bottom: -64px;
 }
+
 .page-header__head{
 
 	padding: 0 20px;
