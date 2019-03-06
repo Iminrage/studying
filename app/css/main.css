@@ -358,6 +358,8 @@
 	padding-bottom: 10px;
 }
 .slider__dot{
+	padding: 0;
+	border: none;
 	width: 6px;
 	height: 6px;
 	background-color: #bec2c7;
@@ -366,6 +368,8 @@
 	margin-right: 8px;
 }
 .slider__dot--current{
+	padding: 3px;
 	border-radius: 6px;
+	background-color: #fff;
 	border: 3px solid #283645;
 }
