@@ -259,6 +259,8 @@
 	padding-top: 45px;
 	position: relative;
 	padding-bottom: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .offer__attraction::after{ /*Triangle*/
 	position: absolute;
@@ -272,6 +274,8 @@
 .attraction__text{
 	margin: 0;
 	padding-bottom: 40px;
+	text-align: center;
+
 }
 .advantages{
 
