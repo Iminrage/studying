@@ -239,6 +239,11 @@
 
 .offer{
 	background-color: #f2f2f2;
+
+	background-image: url(../img/iphoneScreenCropped.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+
 }
 
 .attraction{
@@ -247,25 +252,48 @@
 	text-align: center;
 
 	background-color: #fff;
+
 }
 
 .offer__attraction{
 	padding-top: 45px;
 	position: relative;
+	padding-bottom: 40px;
 }
-.offer__attraction::after{
+.offer__attraction::after{ /*Triangle*/
 	position: absolute;
 	content: '';
 	left: 0;
-	bottom: -32px;
+	bottom: -31px;
 	border-style: solid;
 	border-width: 32px 100vw 0 0;
 	border-color: #ffffff transparent transparent transparent;
 }
-
+.attraction__text{
+	margin: 0;
+	padding-bottom: 40px;
+}
 .advantages{
 
 }
 .offer__advantages{
+	margin: 0;
+	padding: 0 30px;
 	margin-top: 85px;
+	padding-bottom: 280px;
+}
+.advantages__item{
+	text-align: center;
+	list-style: none;
+	padding-bottom: 40px;
+}
+.advantages__heading{
+	font-weight: bold;
+	font-size: 18px;
+}
+.advantages__text{
+	margin: 0;
+	padding-top: 20px;
+	font-weight: 300;
+	font-size: 14px;
 }
