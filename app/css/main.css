@@ -9,7 +9,6 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .page-html{
 	margin: 0;
 	padding: 0;
@@ -34,6 +33,7 @@
 }
 .site-nav--deployed{
 	position: static;
+	box-sizing: border-box;
 }
 .page-header__site-nav{
 	margin-bottom: -64px;
@@ -267,9 +267,11 @@
 	content: '';
 	left: 0;
 	bottom: -31px;
-	border-style: solid;
-	border-width: 32px 100vw 0 0;
-	border-color: #ffffff transparent transparent transparent;
+	height: 32px;
+	width: 100%;
+	background-image: url(../img/triangle.svg);
+	background-size: cover;
+	background-position: top center;
 }
 .attraction__text{
 	margin: 0;
@@ -306,7 +308,7 @@
 	padding-top: 45px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 35px;
+	padding-bottom: 45px;
 	position: relative;
 }
 .reviews::after{ /*Triangle*/
@@ -314,9 +316,11 @@
 	content: '';
 	left: 0;
 	bottom: -31px;
-	border-style: solid;
-	border-width: 32px 100vw 0 0;
-	border-color: #ffffff transparent transparent transparent;
+	height: 32px;
+	width: 100%;
+	background-image: url(../img/triangle.svg);
+	background-size: cover;
+	background-position: top center;
 }
 .slider{
 
@@ -355,7 +359,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 10px;
 }
 .slider__dot{
 	padding: 0;
@@ -373,3 +376,27 @@
 	background-color: #fff;
 	border: 3px solid #283645;
 }
+
+.prices{
+	padding-top: 95px;
+	background-color: #f2f2f2;
+	padding-bottom: 40px;
+}
+
+.prices__slider{
+	width: 100%;
+}
+.slider-overflow{
+	display: flex;
+}
+
+.price-list__item{
+	width: 100%;
+}
+
+
+
+.google-map{
+	overflow: hidden;
+}
+

@@ -27,10 +27,14 @@
 				</div>
 			</div>
 			<ul class="site-nav__list">
-				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">Главная</span></a></li>
-				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">Фотографии</span></a></li>
-				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">Конкурс</span></a></li>
-				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">HTML Academy</span></a></li>
+				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">Главная</span></a>
+				</li>
+				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">Фотографии</span></a>
+				</li>
+				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">Конкурс</span></a>
+				</li>
+				<li class="site-nav__item"><a href="#" class="site-nav__link"><span class="site-nav__text">HTML
+							Academy</span></a></li>
 			</ul>
 		</nav>
 		<div class="page-header__preview"></div>
@@ -41,7 +45,7 @@
 			<h2 class="visually-hidden">Скачайте наше приложение</h2>
 			<a href="#" class="button download__button">
 				<span class="button__text">
-				Скачать приложение	
+					Скачать приложение
 				</span>
 			</a>
 			<div class="stores download__stores">
@@ -112,18 +116,18 @@
 						познакомился со своей будущей женой в комментариях к выложенной фотографии!»
 					</blockquote>
 				</div>
-				<div class="slider__dots">
-					<button class="slider__dot slider__dot--current"></button>
-					<button class="slider__dot"></button>
-					<button class="slider__dot"></button>
-				</div>
+			</div>
+			<div class="slider__dots">
+				<button class="slider__dot slider__dot--current"></button>
+				<button class="slider__dot"></button>
+				<button class="slider__dot"></button>
 			</div>
 		</section>
-		<section class="price-list">
-			<div class="slider price-list__slider">
-				<table price-list__item>
-					<caption price-list__heading>
-						Стандарт<br>
+		<section class="prices">
+			<div class="slider-overflow prices__slider">
+				<table class="slider-overflow__item price-list__item">
+					<caption class="price-list__heading">
+						Стандарт1<br>
 						<span class="price-list__price">
 							3,99 USD
 						</span>
@@ -141,11 +145,51 @@
 						<td class="price-list__included price-list__included--not" aria-label="Нет"></td>
 					</tr>
 				</table>
-				<div class="slider__dots ">
-					<button class="slider__dot slider__dot--current"></button>
-					<button class="slider__dot"></button>
-					<button class="slider__dot"></button>
-				</div>
+				<table class="slider-overflow__item slider-overflow__item--current price-list__item">
+					<caption class="price-list__heading">
+						Стандарт2<br>
+						<span class="price-list__price">
+							3,99 USD
+						</span>
+					</caption>
+					<tr>
+						<td class="price-list__option">Розовый фильтр</td>
+						<td class="price-list__included" aria-label="Да"></td>
+					</tr>
+					<tr>
+						<td class="price-list__option">Смайлики</td>
+						<td class="price-list__included" aria-label="Да"></td>
+					</tr>
+					<tr>
+						<td class="price-list__option">Комментарии</td>
+						<td class="price-list__included price-list__included--not" aria-label="Нет"></td>
+					</tr>
+				</table>
+				<table class="slider-overflow__item  price-list__item">
+					<caption class="price-list__heading">
+						Стандарт3<br>
+						<span class="price-list__price">
+							3,99 USD
+						</span>
+					</caption>
+					<tr>
+						<td class="price-list__option">Розовый фильтр</td>
+						<td class="price-list__included" aria-label="Да"></td>
+					</tr>
+					<tr>
+						<td class="price-list__option">Смайлики</td>
+						<td class="price-list__included" aria-label="Да"></td>
+					</tr>
+					<tr>
+						<td class="price-list__option">Комментарии</td>
+						<td class="price-list__included price-list__included--not" aria-label="Нет"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="slider__dots ">
+				<button class="slider__dot slider__dot--current"></button>
+				<button class="slider__dot"></button>
+				<button class="slider__dot"></button>
 			</div>
 		</section>
 		<section class="contact">
@@ -180,7 +224,7 @@
 	<footer class="page-footer">
 		<iframe
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1551720086031"
-			frameborder="0" width="100%" style="border:0" allowfullscreen>ул. Большая Конюшенная, 19/8</iframe>
+			frameborder="0" width="100%" class="google-map" style="border:0" allowfullscreen>ул. Большая Конюшенная, 19/8</iframe>
 	</footer>
 
 	<script src="js/sricpts.js"></script>
