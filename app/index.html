@@ -37,10 +37,11 @@
 							Academy</span></a></li>
 			</ul>
 		</nav>
-		<div class="page-header__preview"></div>
-
 	</header>
 	<main class="page-main">
+		<header class="main-header">
+			<div class="preview main-header__preview"></div>
+		</header>
 		<section class="download">
 			<h2 class="visually-hidden">Скачайте наше приложение</h2>
 			<a href="#" class="button download__button">
@@ -62,10 +63,10 @@
 		<section class="offer">
 			<h2 class="visually-hidden">Наше предложение</h2>
 			<div class="attraction offer__attraction">
-				<p class="attraction__text">
+				<p class="heading-text attraction__text">
 					Устали от&nbsp;серости мегаполиса?
 				</p>
-				<p class="attraction__text">
+				<p class="heading-text attraction__text">
 					Нам есть, что&nbsp;вам предложить!
 				</p>
 			</div>
@@ -88,6 +89,7 @@
 			</ul>
 		</section>
 		<section class="reviews">
+			<h2 class="visually-hidden">Отзывы</h2>
 			<div class="slider reviews__slider">
 				<div class="slider__item--current review">
 					<p class="review__author">
@@ -124,8 +126,9 @@
 			</div>
 		</section>
 		<section class="prices">
+			<h2 class="visually-hidden">Тарифы</h2>
 			<div class="slider-overflow prices__slider">
-				<table class="price-list">
+				<table class="price-list prices__price-list">
 					<tr class="price-list__row">
 						<th class="price-list__head" colspan="2">
 							<span class="price-list__plan">Продвинутый</span>
@@ -205,42 +208,39 @@
 				<button id="prices-dot3" class="slider-dots__dot"></button>
 			</div>
 		</section>
-		<section class="contact">
+		<section class="contacts">
 			<h2 class="visually-hidden">Связаться с нами</h2>
-			<p class="contact__text">
+			<p class="heading-text contacts__heading-text">
 				Остались вопросы?<br>
 				Свяжитесь с нами!
 			</p>
-			<ul class="contacts contact__list">
-				<li class="contacts__text-content">
-					<b class="contacts__heading">Звоните:</b>
-					<a class="contacts__link" href="tel:+78125556666">
-						7 (812) 555-66-66
+			<ul class="contact-list contacts__contact-list">
+				<li class="contact-list__item">
+					<b class="contact-list__heading">Звоните:</b>
+					<a class="contact-list__link" href="tel:+78125556666">
+						+7 (812) 555-66-66
 					</a>
 				</li>
-				<li class="contacts__text-content">
-					<b class="contacts__heading">Пишите:</b>
-					<a class="contacts__link" href="mail:mail@htmlacademy.ru">
+				<li class="contact-list__item">
+					<b class="contact-list__heading">Пишите:</b>
+					<a class="contact-list__link" href="mailto:mail@htmlacademy.ru">
 						mail@htmlacademy.ru
 					</a>
 				</li>
-				<li class="contacts__text-content">
-					<b class="contacts__heading">Приезжайте в гости:</b>
-					<a class="contacts__link" href="https://goo.gl/maps/HP8aeaY8E3F2">
+				<li class="contact-list__item">
+					<b class="contact-list__heading">Приезжайте в гости:</b>
+					<a class="contact-list__link" href="https://goo.gl/maps/HP8aeaY8E3F2">
 						ул. Большая<br>
 						Конюшенная, 19/8
 					</a>
 				</li>
 			</ul>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1551720086031"
+				frameborder="0" width="100%" class="google-map" style="border:0" allowfullscreen>ул. Большая Конюшенная,
+				19/8</iframe>
 		</section>
 	</main>
-	<footer class="page-footer">
-		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1551720086031"
-			frameborder="0" width="100%" class="google-map" style="border:0" allowfullscreen>ул. Большая Конюшенная,
-			19/8</iframe>
-	</footer>
-
 	<script src="js/sricpts.js"></script>
 </body>
 

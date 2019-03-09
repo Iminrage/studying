@@ -36,8 +36,6 @@ document.querySelector('#prices-dot2').addEventListener('click', function(){
 	document.querySelector('#prices-dot3').classList.remove('slider-dots__dot--current');
 });
 
-
-
 burger.addEventListener("click", function(){
 	mainMenu.classList.toggle('site-nav--deployed');
 	if(mainMenu.classList.contains('site-nav--deployed')){

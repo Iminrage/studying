@@ -157,7 +157,8 @@
 
 	text-decoration: none;
 }
-.page-header__preview{
+
+.preview{
 	z-index: -1;
 	position: relative;
 	height: 100vh;
@@ -245,11 +246,13 @@
 	background-position: center bottom;
 
 }
-
-.attraction{
+.heading-text{
+	margin: 0;
 	font-weight: 300;
 	font-size: 24px;
 	text-align: center;
+}
+.attraction{
 
 	background-color: #fff;
 
@@ -386,12 +389,14 @@
 }
 
 .prices__slider{
-	width: 100%;
 }
 .slider-overflow{
 	overflow-x: scroll;
 }
+.prices__price-list{
+}
 .price-list{
+
 	border-collapse: collapse;
 	border: 2px solid #e5e5e5;
 }
@@ -421,8 +426,6 @@
 }
 .price-list__data{
 	padding: 20px 25px;
-
-	
 }
 .price-list__data--status{
 	border-right: 2px solid #e5e5e5;
@@ -442,11 +445,56 @@
 .price-list__included--not{
 	background-image: url(../img/icon-no.svg);
 }
-
 .prices__slider-dots{
 	margin-top: 40px;
 }
 
+.contacts{
+	background-color: #fff;
+}
+.contacts__heading-text{
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.contact-list{
+	margin: 0;
+	padding: 0;
+}
+.contacts__contact-list{
+	padding-bottom: 35px;
+	position: relative;
+}
+.contact-list__item{
+	text-align: center;
+
+	list-style: none;
+}
+.contact-list__heading{
+	font-size: 18px;
+	font-weight: bold;
+	color: #283645;
+
+	display: block;
+}
+.contact-list__link{
+	font-weight: 300;
+	font-size: 24px;
+	color: #d22856;
+	text-decoration: none;
+
+	display: block;
+}
+.contacts__contact-list::after{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -31px;
+	height: 32px;
+	width: 100%;
+	background-image: url(../img/triangle120deg.svg);
+	background-size: cover;
+	background-position: top center;
+}
 .google-map{
 	overflow: hidden;
 }
