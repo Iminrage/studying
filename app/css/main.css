@@ -469,6 +469,9 @@
 
 	list-style: none;
 }
+.contacts__item{
+	margin-bottom: 20px;
+}
 .contact-list__heading{
 	font-size: 18px;
 	font-weight: bold;
