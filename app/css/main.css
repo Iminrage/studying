@@ -171,6 +171,7 @@
 .download{
 	font-weight: 300;
 	color: white;
+	text-align: center;
 
 	padding: 30px 20px;
 	background-color: #1d2631;
@@ -179,18 +180,17 @@
 	margin-bottom: 30px;
 }
 .button{
-	color: white;
 	font-weight: bold;
 	font-size: 18px;
-
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	border: 3px solid white;
 	text-decoration: none;
-	border-radius: 50px;
+
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: 50px;color: white;
+	padding: 15px 35px;
+}
+.button__text{
+	
 }
 .button:hover{
 	color: white;
@@ -391,6 +391,8 @@
 .prices__slider{
 }
 .slider-overflow{
+	display: flex;
+	justify-content: center;
 	overflow-x: scroll;
 }
 .prices__price-list{
