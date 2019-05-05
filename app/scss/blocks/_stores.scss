@@ -1,0 +1,43 @@
+.stores {
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.stores__wrapper {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.stores__link {
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  &::before {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 60px;
+    left: 0;
+    top: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+.stores__link--aps::before {
+  background-image: url(../img/apple-logo.png);
+}
+
+.stores__link--gp::before {
+  background-image: url(../img/android-logo.png);
+}
+
+.stores__link--ms::before {
+  background-image: url(../img/microsoft-logo.png);
+}

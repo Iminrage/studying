@@ -1,0 +1,22 @@
+.page-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.page-header__site-nav {
+  margin-bottom: -64px;
+}
+
+.page-header__head {
+  padding: 0 20px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.page-header__burger-button {
+  width: 50px;
+  height: 25px;
+}

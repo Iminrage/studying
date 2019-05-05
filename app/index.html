@@ -16,7 +16,7 @@
 		<nav class="site-nav page-header__site-nav">
 			<div class="page-header__head">
 				<div class="logo page-header__logo">
-					<img src="img/logotype-white-mobile.png" alt="PINK" class="logo__img">
+					<a class="logo__link" aria-label="PINK">j</a>
 				</div>
 				<div class="burger-button page-header__burger-button">
 					<button class="burger-button__button burger-button__button--opened">
@@ -41,23 +41,23 @@
 	<main class="page-main">
 		<header class="main-header">
 			<div class="preview main-header__preview"></div>
-		</header>
-		<section class="download">
-			<h2 class="visually-hidden">Скачайте наше приложение</h2>
-			<a href="#" class="button download__button">
+			<section class="download">
+				<h2 class="visually-hidden">Скачайте наше приложение</h2>
+				<a href="#" class="button download__button">
 					Скачать приложение
-			</a>
-			<div class="stores download__stores">
-				<div class="stores__wrapper">
-					<a href="#" class="stores__link stores__link--aps" aria-label="Скачать в Apple store"></a>
-					<a href="#" class="stores__link stores__link--gp" aria-label="Скачать в Google play"></a>
-					<a href="#" class="stores__link stores__link--ms" aria-label="Скачать в Microsoft store"></a>
+				</a>
+				<div class="stores download__stores">
+					<div class="stores__wrapper download__wrapper">
+						<a href="#" class="stores__link stores__link--aps" aria-label="Скачать в Apple store"></a>
+						<a href="#" class="stores__link stores__link--gp" aria-label="Скачать в Google play"></a>
+						<a href="#" class="stores__link stores__link--ms" aria-label="Скачать в Microsoft store"></a>
+					</div>
+					<p class="stores__explanation">
+						Доступно&nbsp;для iPhone, iPad, Android, Windows&nbsp;Phone, OS&nbsp;X, Windows&nbsp;8
+					</p>
 				</div>
-				<p class="stores__explanation">
-					Доступно&nbsp;для iPhone, iPad, Android, Windows&nbsp;Phone, OS&nbsp;X, Windows&nbsp;8
-				</p>
-			</div>
-		</section>
+			</section>
+		</header>
 		<section class="offer">
 			<h2 class="visually-hidden">Наше предложение</h2>
 			<div class="attraction offer__attraction">
@@ -201,9 +201,9 @@
 				</table>
 			</div>
 			<div class="slider-dots prices__slider-dots">
-				<button id="prices-dot1" class="slider-dots__dot"></button>
-				<button id="prices-dot2" class="slider-dots__dot slider-dots__dot--current"></button>
-				<button id="prices-dot3" class="slider-dots__dot"></button>
+				<button id="prices-dot1" class="slider-dots__dot prices__dot"></button>
+				<button id="prices-dot2" class="slider-dots__dot prices__dot slider-dots__dot--current"></button>
+				<button id="prices-dot3" class="slider-dots__dot prices__dot"></button>
 			</div>
 		</section>
 		<section class="contacts">

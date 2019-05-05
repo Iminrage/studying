@@ -1,0 +1,55 @@
+.price-list {
+  border-collapse: collapse;
+  border: 2px solid #e5e5e5;
+}
+
+.price-list__head {
+  font-family: 'Open sans', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid #e5e5e5;
+  padding: 18px 0;
+  background-color: #283645;
+}
+
+.price-list__plan {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+.price-list__rate {
+  font-weight: 300;
+  font-size: 24px;
+  display: block;
+}
+
+.price-list__row {
+  border: 2px solid #e5e5e5;
+}
+
+.price-list__data {
+  padding: 20px 25px;
+}
+
+.price-list__data--status {
+  border-right: 2px solid #e5e5e5;
+}
+
+.price-list__option {
+  text-transform: uppercase;
+}
+
+.price-list__included {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/icon-yes.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.price-list__included--not {
+  background-image: url(../img/icon-no.svg);
+}

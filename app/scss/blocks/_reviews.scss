@@ -1,0 +1,22 @@
+.reviews {
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 45px;
+  position: relative;
+  &::after {
+    /*Triangle*/
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -31px;
+    height: 32px;
+    width: 100%;
+    background-image: url(../img/triangle.svg);
+    background-size: cover;
+    background-position: top center;
+  }
+}
+.reviews__slider-dots {
+  margin-top: 40px;
+}
