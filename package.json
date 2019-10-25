@@ -4,6 +4,7 @@
   "description": "Academylvl2gulp\u001b[D\u001b[D\u001b[G\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[L\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[a\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
   "main": "index.js",
   "scripts": {
+    "start": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
