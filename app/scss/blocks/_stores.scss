@@ -8,13 +8,14 @@
   height: 60px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   align-content: center;
 }
 
 .stores__link {
-  display: block;
+	display: block;
+	margin: 0 17px;
   position: relative;
   width: 60px;
   height: 60px;
