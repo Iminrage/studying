@@ -1,9 +1,8 @@
 .logo{
-	display: flex;
 }
 .logo__link{
 	display: block;
-	height: 25px;
-	width: 80px;
-	background-image: url(../../img/logotype-white-mobile.png);
+	height: 22px;
+	width: 75px;
+	background: url(../../img/logotype-white-mobile.png) 0 0 / cover no-repeat;
 }
