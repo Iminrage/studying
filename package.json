@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Iminrage/studying#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.29.1",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.0.2",
